@@ -1,0 +1,9 @@
+keyboard
+pillow
+opencv-python
+easyocr
+pytesseract
+baidu-aip
+pywin32
+pyperclip
+pystray 
