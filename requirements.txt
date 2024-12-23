@@ -1,9 +1,17 @@
-keyboard
-pillow
-opencv-python
-easyocr
-pytesseract
-baidu-aip
-pywin32
-pyperclip
-pystray 
+# OCR相关
+easyocr>=1.7.1
+pytesseract>=0.3.10
+baidu-aip>=4.16.11
+
+# GUI相关
+pillow>=10.0.0
+pystray>=0.19.4
+
+# 功能相关
+keyboard>=0.13.5
+pyperclip>=1.8.2
+pywin32>=306
+opencv-python>=4.8.0
+
+# 打包相关
+pyinstaller>=6.2.0 

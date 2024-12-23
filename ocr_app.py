@@ -8,11 +8,17 @@ import json
 import os
 from screenshot_ocr import ScreenshotOCR
 import keyboard
+from version import VERSION, DESCRIPTION
 
 class OCRApp:
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title("OCR文字识别工具")
+        self.root.title(f"{DESCRIPTION} v{VERSION}")
+        
+        # 设置图标
+        if os.path.exists("icon.ico"):
+            self.root.iconbitmap("icon.ico")
+        
         # 移除固定大小
         # self.root.geometry("400x300")
         

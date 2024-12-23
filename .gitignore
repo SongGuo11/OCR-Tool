@@ -33,4 +33,5 @@ ENV/
 # Project specific
 debug_screenshot.png
 config.json
+*.spec
 *.log 
