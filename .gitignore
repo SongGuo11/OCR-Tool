@@ -37,4 +37,12 @@ config.json
 *.log 
 
 temp_version.txt
-批量添加脸部白色遮罩.json 
+批量添加脸部白色遮罩.json
+*.bat
+!build.cmd
+!run.bat
+!install.bat 
+
+# 打包文件
+*.rar
+*.zip 
