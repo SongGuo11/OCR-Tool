@@ -35,3 +35,6 @@ debug_screenshot.png
 config.json
 *.spec
 *.log 
+
+temp_version.txt
+批量添加脸部白色遮罩.json 
